@@ -403,7 +403,7 @@ namespace CGALDotNet.Polyhedra
         /// <returns>ON_BOUNDED_SIDE if point inside mesh, 
         /// ON_UNBOUNDED_SIDE if point not inside, 
         /// ON_BOUNDARY if point is on the surface.</returns>
-        public BOUNDED_SIDE BoundedSide(Point3d point);
+        BOUNDED_SIDE BoundedSide(Point3d point);
 
         /// <summary>
         /// Does the mesh contain the point.
